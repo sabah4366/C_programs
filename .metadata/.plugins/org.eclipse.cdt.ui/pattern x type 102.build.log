@@ -1,0 +1,15 @@
+11:01:20 **** Incremental Build of configuration Debug for project pattern x type 102 ****
+make all 
+Building file: ../src/pattern x type 102.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern x type 102.d" -MT"src/pattern x type 102.o" -o "src/pattern x type 102.o" "../src/pattern x type 102.c"
+Finished building: ../src/pattern x type 102.c
+ 
+Building target: pattern x type 102
+Invoking: GCC C Linker
+gcc  -o "pattern x type 102" ./src/pattern\ x\ type\ 102.o   
+Finished building target: pattern x type 102
+ 
+
+11:01:20 Build Finished. 0 errors, 0 warnings. (took 211ms)
+

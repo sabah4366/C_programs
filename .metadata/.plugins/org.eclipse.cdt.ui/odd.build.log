@@ -1,0 +1,6 @@
+11:23:51 **** Build of configuration Debug for project odd ****
+make all 
+make: Nothing to be done for 'all'.
+
+11:23:51 Build Finished. 0 errors, 0 warnings. (took 161ms)
+

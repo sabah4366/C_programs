@@ -1,0 +1,21 @@
+00:04:28 **** Incremental Build of configuration Debug for project project8 ****
+make all 
+Building file: ../src/project8.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project8.d" -MT"src/project8.o" -o "src/project8.o" "../src/project8.c"
+../src/project8.c: In function ‘main’:
+../src/project8.c:19:5: warning: ‘main’ is normally a non-static function [-Wmain]
+   19 | int main(void) {
+      |     ^~~~
+At top level:
+../src/project8.c:19:5: warning: ‘main’ defined but not used [-Wunused-function]
+Finished building: ../src/project8.c
+ 
+Building target: project8
+Invoking: GCC C Linker
+gcc  -o "project8" ./src/project8.o   
+Finished building target: project8
+ 
+
+00:04:28 Build Finished. 0 errors, 2 warnings. (took 696ms)
+

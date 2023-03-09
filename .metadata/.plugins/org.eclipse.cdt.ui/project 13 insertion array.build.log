@@ -1,0 +1,6 @@
+22:00:04 **** Incremental Build of configuration Debug for project project 13 insertion array ****
+make all 
+make: Nothing to be done for 'all'.
+
+22:00:04 Build Finished. 0 errors, 0 warnings. (took 161ms)
+

@@ -1,0 +1,6 @@
+15:10:58 **** Incremental Build of configuration Debug for project rvrs ****
+make all 
+make: Nothing to be done for 'all'.
+
+15:10:58 Build Finished. 0 errors, 0 warnings. (took 273ms)
+

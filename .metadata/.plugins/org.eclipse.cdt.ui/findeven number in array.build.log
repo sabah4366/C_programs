@@ -1,0 +1,19 @@
+07:33:32 **** Incremental Build of configuration Debug for project findeven number in array ****
+make all 
+Building file: ../src/findeven number in array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/findeven number in array.d" -MT"src/findeven number in array.o" -o "src/findeven number in array.o" "../src/findeven number in array.c"
+../src/findeven number in array.c: In function ‘main’:
+../src/findeven number in array.c:15:32: warning: unused variable ‘num’ [-Wunused-variable]
+   15 |         int size,i,values[100],num=0;
+      |                                ^~~
+Finished building: ../src/findeven number in array.c
+ 
+Building target: findeven number in array
+Invoking: GCC C Linker
+gcc  -o "findeven number in array" ./src/findeven\ number\ in\ array.o   
+Finished building target: findeven number in array
+ 
+
+07:33:32 Build Finished. 0 errors, 1 warnings. (took 370ms)
+

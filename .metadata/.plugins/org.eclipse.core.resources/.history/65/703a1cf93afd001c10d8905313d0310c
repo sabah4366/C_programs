@@ -1,0 +1,43 @@
+/*
+ ============================================================================
+ Name        : project.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int limit,i,pos,a[100];
+	printf("enter the limit");
+	scanf("%d",&limit);
+	printf("enter the values of the array");
+	for(i=0;i<limit;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("which position you want to insert");
+	scanf("%d",&pos);
+	for(i=limit-1;i>=pos-1;i--)
+	{
+		a[limit-1]=pos;
+
+	}
+	for(i=limit-1;i>=pos-1;i++)
+	{
+		printf("%d",pos);
+	}
+
+
+
+
+
+
+
+
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,19 @@
+23:57:25 **** Incremental Build of configuration Debug for project project 7 ****
+make all 
+Building file: ../src/project 7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project 7.d" -MT"src/project 7.o" -o "src/project 7.o" "../src/project 7.c"
+../src/project 7.c: In function ‘main’:
+../src/project 7.c:15:13: warning: unused variable ‘l’ [-Wunused-variable]
+   15 |         int l=5,i,j;
+      |             ^
+Finished building: ../src/project 7.c
+ 
+Building target: project 7
+Invoking: GCC C Linker
+gcc  -o "project 7" ./src/project\ 7.o   
+Finished building target: project 7
+ 
+
+23:57:26 Build Finished. 0 errors, 1 warnings. (took 596ms)
+

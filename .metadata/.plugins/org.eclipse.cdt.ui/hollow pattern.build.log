@@ -1,0 +1,15 @@
+16:45:28 **** Incremental Build of configuration Debug for project hollow pattern ****
+make all 
+Building file: ../src/hollow pattern.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hollow pattern.d" -MT"src/hollow pattern.o" -o "src/hollow pattern.o" "../src/hollow pattern.c"
+Finished building: ../src/hollow pattern.c
+ 
+Building target: hollow pattern
+Invoking: GCC C Linker
+gcc  -o "hollow pattern" ./src/hollow\ pattern.o   
+Finished building target: hollow pattern
+ 
+
+16:45:28 Build Finished. 0 errors, 0 warnings. (took 215ms)
+

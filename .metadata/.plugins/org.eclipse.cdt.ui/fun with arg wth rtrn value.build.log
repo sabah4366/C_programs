@@ -1,0 +1,19 @@
+22:55:29 **** Incremental Build of configuration Debug for project fun with arg wth rtrn value ****
+make all 
+Building file: ../src/fun with arg wth rtrn value.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fun with arg wth rtrn value.d" -MT"src/fun with arg wth rtrn value.o" -o "src/fun with arg wth rtrn value.o" "../src/fun with arg wth rtrn value.c"
+../src/fun with arg wth rtrn value.c: In function ‘main’:
+../src/fun with arg wth rtrn value.c:21:11: warning: implicit declaration of function ‘calculate’ [-Wimplicit-function-declaration]
+   21 |         f=calculate();
+      |           ^~~~~~~~~
+Finished building: ../src/fun with arg wth rtrn value.c
+ 
+Building target: fun with arg wth rtrn value
+Invoking: GCC C Linker
+gcc  -o "fun with arg wth rtrn value" ./src/fun\ with\ arg\ wth\ rtrn\ value.o   
+Finished building target: fun with arg wth rtrn value
+ 
+
+22:55:29 Build Finished. 0 errors, 1 warnings. (took 213ms)
+

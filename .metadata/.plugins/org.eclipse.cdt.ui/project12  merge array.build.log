@@ -1,0 +1,15 @@
+19:23:03 **** Incremental Build of configuration Debug for project project12  merge array ****
+make all 
+Building file: ../src/project12  merge array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project12  merge array.d" -MT"src/project12  merge array.o" -o "src/project12  merge array.o" "../src/project12  merge array.c"
+Finished building: ../src/project12  merge array.c
+ 
+Building target: project12  merge array
+Invoking: GCC C Linker
+gcc  -o "project12  merge array" ./src/project12\ \ merge\ array.o   
+Finished building target: project12  merge array
+ 
+
+19:23:03 Build Finished. 0 errors, 0 warnings. (took 211ms)
+

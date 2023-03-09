@@ -1,0 +1,15 @@
+11:23:32 **** Incremental Build of configuration Debug for project array with 3 functions ****
+make all 
+Building file: ../src/array with 3 functions.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array with 3 functions.d" -MT"src/array with 3 functions.o" -o "src/array with 3 functions.o" "../src/array with 3 functions.c"
+Finished building: ../src/array with 3 functions.c
+ 
+Building target: array with 3 functions
+Invoking: GCC C Linker
+gcc  -o "array with 3 functions" ./src/array\ with\ 3\ functions.o   
+Finished building target: array with 3 functions
+ 
+
+11:23:33 Build Finished. 0 errors, 0 warnings. (took 214ms)
+

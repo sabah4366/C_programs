@@ -1,0 +1,43 @@
+/*
+ ============================================================================
+ Name        : fumigation.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a[100]={1,2,3,4,5};
+	int b[100]={6,7,8,9,10};
+	int i,k=0,c[i],m=5,n=5,h=m+n;
+
+	printf("after merging");
+	for(i=0;i<h;i++)
+	{
+
+			c[i]=a[i];
+
+		if(i>m-1)
+		{
+			c[i]=b[k];
+			k++;
+		}
+		for(i=0;i<h;i++)
+		{
+			printf("%d",c[i]);
+		}
+
+	}
+	{
+
+	}
+
+
+
+	return EXIT_SUCCESS;
+}

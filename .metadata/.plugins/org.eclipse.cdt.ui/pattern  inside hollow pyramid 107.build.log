@@ -1,0 +1,6 @@
+09:47:15 **** Incremental Build of configuration Debug for project pattern  inside hollow pyramid 107 ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:47:15 Build Finished. 0 errors, 0 warnings. (took 269ms)
+

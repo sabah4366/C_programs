@@ -1,0 +1,15 @@
+10:54:19 **** Incremental Build of configuration Debug for project char from user ****
+make all 
+Building file: ../src/char from user.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/char from user.d" -MT"src/char from user.o" -o "src/char from user.o" "../src/char from user.c"
+Finished building: ../src/char from user.c
+ 
+Building target: char from user
+Invoking: GCC C Linker
+gcc  -o "char from user" ./src/char\ from\ user.o   
+Finished building target: char from user
+ 
+
+10:54:19 Build Finished. 0 errors, 0 warnings. (took 211ms)
+

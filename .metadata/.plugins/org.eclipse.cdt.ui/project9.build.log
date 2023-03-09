@@ -1,0 +1,15 @@
+09:27:01 **** Incremental Build of configuration Debug for project project9 ****
+make all 
+Building file: ../src/project9.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project9.d" -MT"src/project9.o" -o "src/project9.o" "../src/project9.c"
+Finished building: ../src/project9.c
+ 
+Building target: project9
+Invoking: GCC C Linker
+gcc  -o "project9" ./src/project9.o   
+Finished building target: project9
+ 
+
+09:27:01 Build Finished. 0 errors, 0 warnings. (took 211ms)
+

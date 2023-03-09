@@ -1,0 +1,18 @@
+11:23:53 **** Build of configuration Debug for project reverse printing ****
+make all 
+Building file: ../src/reverse printing.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse printing.d" -MT"src/reverse printing.o" -o "src/reverse printing.o" "../src/reverse printing.c"
+../src/reverse printing.c: In function ‘main’:
+../src/reverse printing.c:18:13: error: ‘i’ undeclared (first use in this function)
+   18 |         for(i=size;i>=1;i--)
+      |             ^
+../src/reverse printing.c:18:13: note: each undeclared identifier is reported only once for each function it appears in
+../src/reverse printing.c:20:21: error: ‘j’ undeclared (first use in this function)
+   20 |                 for(j=1;j<=i;j++)
+      |                     ^
+make: *** [src/subdir.mk:20: src/reverse printing.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+11:23:53 Build Failed. 3 errors, 0 warnings. (took 266ms)
+

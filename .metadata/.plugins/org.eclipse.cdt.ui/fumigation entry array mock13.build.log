@@ -1,0 +1,6 @@
+11:10:31 **** Incremental Build of configuration Debug for project fumigation entry array mock13 ****
+make all 
+make: Nothing to be done for 'all'.
+
+11:10:32 Build Finished. 0 errors, 0 warnings. (took 161ms)
+

@@ -1,0 +1,17 @@
+11:23:50 **** Build of configuration Debug for project mypattern ****
+make all 
+Building file: ../src/mypattern.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mypattern.d" -MT"src/mypattern.o" -o "src/mypattern.o" "../src/mypattern.c"
+../src/mypattern.c:1:2: error: unknown type name ‘m’
+    1 |  m m/*
+      |  ^
+../src/mypattern.c:1:5: error: expected ‘;’ before ‘typedef’
+    1 |  m m/*
+      |     ^
+      |     ;
+make: *** [src/subdir.mk:20: src/mypattern.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+11:23:50 Build Failed. 3 errors, 0 warnings. (took 213ms)
+

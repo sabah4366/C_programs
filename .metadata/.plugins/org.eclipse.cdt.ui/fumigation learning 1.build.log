@@ -1,0 +1,15 @@
+14:57:49 **** Incremental Build of configuration Debug for project fumigation learning 1 ****
+make all 
+Building file: ../src/fumigation learning 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fumigation learning 1.d" -MT"src/fumigation learning 1.o" -o "src/fumigation learning 1.o" "../src/fumigation learning 1.c"
+Finished building: ../src/fumigation learning 1.c
+ 
+Building target: fumigation learning 1
+Invoking: GCC C Linker
+gcc  -o "fumigation learning 1" ./src/fumigation\ learning\ 1.o   
+Finished building target: fumigation learning 1
+ 
+
+14:57:49 Build Finished. 0 errors, 0 warnings. (took 215ms)
+

@@ -1,0 +1,6 @@
+09:46:40 **** Incremental Build of configuration Debug for project PYRAMID PRINTING ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:46:41 Build Finished. 0 errors, 0 warnings. (took 270ms)
+

@@ -1,0 +1,123 @@
+22:55:01 **** Incremental Build of configuration Debug for project fun with arg wth rtrn value ****
+make all 
+Building file: ../src/fun with arg wth rtrn value.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fun with arg wth rtrn value.d" -MT"src/fun with arg wth rtrn value.o" -o "src/fun with arg wth rtrn value.o" "../src/fun with arg wth rtrn value.c"
+../src/fun with arg wth rtrn value.c: In function ‘main’:
+../src/fun with arg wth rtrn value.c:21:11: warning: implicit declaration of function ‘calculate’ [-Wimplicit-function-declaration]
+   21 |         f=calculate();
+      |           ^~~~~~~~~
+../src/fun with arg wth rtrn value.c:20:13: warning: variable ‘f’ set but not used [-Wunused-but-set-variable]
+   20 |         int f;
+      |             ^
+Finished building: ../src/fun with arg wth rtrn value.c
+ 
+Building target: fun with arg wth rtrn value
+Invoking: GCC C Linker
+gcc  -o "fun with arg wth rtrn value" ./src/fun\ with\ arg\ wth\ rtrn\ value.o   
+Finished building target: fun with arg wth rtrn value
+ 
+22:55:29 **** Incremental Build of configuration Debug for project fun with arg wth rtrn value ****
+make all 
+Building file: ../src/fun with arg wth rtrn value.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fun with arg wth rtrn value.d" -MT"src/fun with arg wth rtrn value.o" -o "src/fun with arg wth rtrn value.o" "../src/fun with arg wth rtrn value.c"
+../src/fun with arg wth rtrn value.c: In function ‘main’:
+../src/fun with arg wth rtrn value.c:21:11: warning: implicit declaration of function ‘calculate’ [-Wimplicit-function-declaration]
+   21 |         f=calculate();
+      |           ^~~~~~~~~
+Finished building: ../src/fun with arg wth rtrn value.c
+ 
+Building target: fun with arg wth rtrn value
+Invoking: GCC C Linker
+gcc  -o "fun with arg wth rtrn value" ./src/fun\ with\ arg\ wth\ rtrn\ value.o   
+Finished building target: fun with arg wth rtrn value
+ 
+15:54:19 **** Build of configuration Debug for project saaaample ****
+make all 
+Building file: ../src/saaaample.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/saaaample.d" -MT"src/saaaample.o" -o "src/saaaample.o" "../src/saaaample.c"
+Finished building: ../src/saaaample.c
+ 
+Building target: saaaample
+Invoking: GCC C Linker
+gcc  -o "saaaample" ./src/saaaample.o   
+Finished building target: saaaample
+ 
+15:54:31 **** Incremental Build of configuration Debug for project saaaample ****
+make all 
+Building file: ../src/saaaample.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/saaaample.d" -MT"src/saaaample.o" -o "src/saaaample.o" "../src/saaaample.c"
+../src/saaaample.c: In function ‘main’:
+../src/saaaample.c:16:9: warning: implicit declaration of function ‘fun’ [-Wimplicit-function-declaration]
+   16 |         fun();
+      |         ^~~
+../src/saaaample.c: At top level:
+../src/saaaample.c:20:6: warning: conflicting types for ‘fun’; have ‘void()’
+   20 | void fun(){
+      |      ^~~
+../src/saaaample.c:16:9: note: previous implicit declaration of ‘fun’ with type ‘void()’
+   16 |         fun();
+      |         ^~~
+Finished building: ../src/saaaample.c
+ 
+Building target: saaaample
+Invoking: GCC C Linker
+gcc  -o "saaaample" ./src/saaaample.o   
+Finished building target: saaaample
+ 
+15:57:04 **** Incremental Build of configuration Debug for project saaaample ****
+make all 
+make: Nothing to be done for 'all'.
+15:57:08 **** Incremental Build of configuration Debug for project saaaample ****
+make all 
+Building file: ../src/saaaample.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/saaaample.d" -MT"src/saaaample.o" -o "src/saaaample.o" "../src/saaaample.c"
+../src/saaaample.c: In function ‘main’:
+../src/saaaample.c:17:11: warning: implicit declaration of function ‘fun’ [-Wimplicit-function-declaration]
+   17 |         a=fun();
+      |           ^~~
+../src/saaaample.c:16:13: warning: variable ‘a’ set but not used [-Wunused-but-set-variable]
+   16 |         int a;
+      |             ^
+Finished building: ../src/saaaample.c
+ 
+Building target: saaaample
+Invoking: GCC C Linker
+gcc  -o "saaaample" ./src/saaaample.o   
+Finished building target: saaaample
+ 
+15:57:26 **** Incremental Build of configuration Debug for project saaaample ****
+make all 
+Building file: ../src/saaaample.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/saaaample.d" -MT"src/saaaample.o" -o "src/saaaample.o" "../src/saaaample.c"
+../src/saaaample.c: In function ‘main’:
+../src/saaaample.c:17:11: warning: implicit declaration of function ‘fun’ [-Wimplicit-function-declaration]
+   17 |         a=fun();
+      |           ^~~
+../src/saaaample.c:18:16: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   18 |         printf(a);
+      |                ^
+      |                |
+      |                int
+In file included from ../src/saaaample.c:11:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/saaaample.c:18:9: warning: format not a string literal and no format arguments [-Wformat-security]
+   18 |         printf(a);
+      |         ^~~~~~
+Finished building: ../src/saaaample.c
+ 
+Building target: saaaample
+Invoking: GCC C Linker
+gcc  -o "saaaample" ./src/saaaample.o   
+Finished building target: saaaample
+ 
+15:57:27 **** Incremental Build of configuration Debug for project saaaample ****
+make all 
+make: Nothing to be done for 'all'.

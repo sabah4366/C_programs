@@ -1,0 +1,1 @@
+src/PYRAMID PRINTING.o: ../src/PYRAMID\ PRINTING.c

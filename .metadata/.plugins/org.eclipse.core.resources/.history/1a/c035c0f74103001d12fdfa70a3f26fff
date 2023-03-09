@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : pattern.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char i,j,limit=5;
+	for(i=1;i<=limit;i++)
+	{printf("\n");
+		for(j=1;j<=i;j++)
+		{
+			printf("%d",j+64);
+		}
+	}
+
+	return EXIT_SUCCESS;
+}

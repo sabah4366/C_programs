@@ -1,0 +1,6 @@
+22:55:00 **** Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+
+22:55:01 Build Finished. 0 errors, 0 warnings. (took 270ms)
+

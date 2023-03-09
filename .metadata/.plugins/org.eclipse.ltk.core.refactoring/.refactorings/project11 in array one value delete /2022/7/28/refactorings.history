@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;project11/src/project11.c&apos; to &apos;project11  array  delete  1 value.c&apos;" description="Rename resource &apos;project11.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/project11.c" name="project11  array  delete  1 value.c" stamp="1657114073856" updateReferences="true"/>
+</session>

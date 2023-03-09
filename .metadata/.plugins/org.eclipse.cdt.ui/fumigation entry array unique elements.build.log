@@ -1,0 +1,15 @@
+17:50:46 **** Incremental Build of configuration Debug for project fumigation entry array unique elements ****
+make all 
+Building file: ../src/fumigation entry array unique elements.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fumigation entry array unique elements.d" -MT"src/fumigation entry array unique elements.o" -o "src/fumigation entry array unique elements.o" "../src/fumigation entry array unique elements.c"
+Finished building: ../src/fumigation entry array unique elements.c
+ 
+Building target: fumigation entry array unique elements
+Invoking: GCC C Linker
+gcc  -o "fumigation entry array unique elements" ./src/fumigation\ entry\ array\ unique\ elements.o   
+Finished building target: fumigation entry array unique elements
+ 
+
+17:50:46 Build Finished. 0 errors, 0 warnings. (took 164ms)
+

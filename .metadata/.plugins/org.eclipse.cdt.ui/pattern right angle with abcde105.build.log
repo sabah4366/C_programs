@@ -1,0 +1,15 @@
+12:34:22 **** Build of configuration Debug for project pattern right angle with abcde105 ****
+make all 
+Building file: ../src/pattern right angle with abcde105.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern right angle with abcde105.d" -MT"src/pattern right angle with abcde105.o" -o "src/pattern right angle with abcde105.o" "../src/pattern right angle with abcde105.c"
+Finished building: ../src/pattern right angle with abcde105.c
+ 
+Building target: pattern right angle with abcde105
+Invoking: GCC C Linker
+gcc  -o "pattern right angle with abcde105" ./src/pattern\ right\ angle\ with\ abcde105.o   
+Finished building target: pattern right angle with abcde105
+ 
+
+12:34:24 Build Finished. 0 errors, 0 warnings. (took 1s.814ms)
+

@@ -1,0 +1,15 @@
+16:11:07 **** Incremental Build of configuration Debug for project fumigation entry pattern 4 ****
+make all 
+Building file: ../src/fumigation entry pattern 4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fumigation entry pattern 4.d" -MT"src/fumigation entry pattern 4.o" -o "src/fumigation entry pattern 4.o" "../src/fumigation entry pattern 4.c"
+Finished building: ../src/fumigation entry pattern 4.c
+ 
+Building target: fumigation entry pattern 4
+Invoking: GCC C Linker
+gcc  -o "fumigation entry pattern 4" ./src/fumigation\ entry\ pattern\ 4.o   
+Finished building target: fumigation entry pattern 4
+ 
+
+16:11:07 Build Finished. 0 errors, 0 warnings. (took 215ms)
+

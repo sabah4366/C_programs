@@ -1,0 +1,15 @@
+11:14:58 **** Incremental Build of configuration Debug for project sumof two numbers ****
+make all 
+Building file: ../src/sumof two numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sumof two numbers.d" -MT"src/sumof two numbers.o" -o "src/sumof two numbers.o" "../src/sumof two numbers.c"
+Finished building: ../src/sumof two numbers.c
+ 
+Building target: sumof two numbers
+Invoking: GCC C Linker
+gcc  -o "sumof two numbers" ./src/sumof\ two\ numbers.o   
+Finished building target: sumof two numbers
+ 
+
+11:14:58 Build Finished. 0 errors, 0 warnings. (took 211ms)
+

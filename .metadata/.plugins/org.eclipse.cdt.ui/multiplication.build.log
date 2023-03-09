@@ -1,0 +1,15 @@
+10:50:21 **** Build of configuration Debug for project multiplication ****
+make all 
+Building file: ../src/multiplication.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multiplication.d" -MT"src/multiplication.o" -o "src/multiplication.o" "../src/multiplication.c"
+Finished building: ../src/multiplication.c
+ 
+Building target: multiplication
+Invoking: GCC C Linker
+gcc  -o "multiplication" ./src/multiplication.o   
+Finished building target: multiplication
+ 
+
+10:50:21 Build Finished. 0 errors, 0 warnings. (took 209ms)
+

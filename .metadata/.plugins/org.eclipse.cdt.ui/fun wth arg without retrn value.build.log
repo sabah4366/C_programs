@@ -1,0 +1,15 @@
+10:32:55 **** Incremental Build of configuration Debug for project fun wth arg without retrn value ****
+make all 
+Building file: ../src/fun wth arg without retrn value.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fun wth arg without retrn value.d" -MT"src/fun wth arg without retrn value.o" -o "src/fun wth arg without retrn value.o" "../src/fun wth arg without retrn value.c"
+Finished building: ../src/fun wth arg without retrn value.c
+ 
+Building target: fun wth arg without retrn value
+Invoking: GCC C Linker
+gcc  -o "fun wth arg without retrn value" ./src/fun\ wth\ arg\ without\ retrn\ value.o   
+Finished building target: fun wth arg without retrn value
+ 
+
+10:32:55 Build Finished. 0 errors, 0 warnings. (took 161ms)
+

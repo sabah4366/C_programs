@@ -1,0 +1,6 @@
+15:10:28 **** Incremental Build of configuration Debug for project reverse pyramid1 ****
+make all 
+make: Nothing to be done for 'all'.
+
+15:10:29 Build Finished. 0 errors, 0 warnings. (took 276ms)
+

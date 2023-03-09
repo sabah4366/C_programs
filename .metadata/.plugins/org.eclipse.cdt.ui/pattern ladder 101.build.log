@@ -1,0 +1,15 @@
+10:08:34 **** Incremental Build of configuration Debug for project pattern ladder 101 ****
+make all 
+Building file: ../src/pattern ladder 101.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern ladder 101.d" -MT"src/pattern ladder 101.o" -o "src/pattern ladder 101.o" "../src/pattern ladder 101.c"
+Finished building: ../src/pattern ladder 101.c
+ 
+Building target: pattern ladder 101
+Invoking: GCC C Linker
+gcc  -o "pattern ladder 101" ./src/pattern\ ladder\ 101.o   
+Finished building target: pattern ladder 101
+ 
+
+10:08:34 Build Finished. 0 errors, 0 warnings. (took 160ms)
+

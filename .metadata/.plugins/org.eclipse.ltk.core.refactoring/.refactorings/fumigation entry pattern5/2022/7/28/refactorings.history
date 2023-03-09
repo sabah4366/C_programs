@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;fumigation entry pattern5/src/fumigation entryv pattern5.c&apos; to &apos;fumigation entry pattern5.c&apos;" description="Rename resource &apos;fumigation entryv pattern5.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/fumigation entryv pattern5.c" name="fumigation entry pattern5.c" stamp="1657274626074" updateReferences="true"/>
+</session>

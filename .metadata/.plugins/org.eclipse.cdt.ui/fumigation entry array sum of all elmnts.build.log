@@ -1,0 +1,42 @@
+14:04:40 **** Incremental Build of configuration Debug for project fumigation entry array sum of all elmnts ****
+make all 
+Building file: ../src/fumigation entry array sum of all elmnts.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fumigation entry array sum of all elmnts.d" -MT"src/fumigation entry array sum of all elmnts.o" -o "src/fumigation entry array sum of all elmnts.o" "../src/fumigation entry array sum of all elmnts.c"
+../src/fumigation entry array sum of all elmnts.c: In function ‘main’:
+../src/fumigation entry array sum of all elmnts.c:16:9: error: expected declaration specifiers before ‘printf’
+   16 |         printf("enter the limit");
+      |         ^~~~~~
+../src/fumigation entry array sum of all elmnts.c:17:9: error: expected declaration specifiers before ‘scanf’
+   17 |         scanf("%d",&limit);
+      |         ^~~~~
+../src/fumigation entry array sum of all elmnts.c:18:9: error: expected declaration specifiers before ‘printf’
+   18 |         printf("enter the values");
+      |         ^~~~~~
+../src/fumigation entry array sum of all elmnts.c:19:9: error: expected declaration specifiers before ‘for’
+   19 |         for(i=1;i<=limit;i++;)
+      |         ^~~
+../src/fumigation entry array sum of all elmnts.c:19:17: error: expected declaration specifiers before ‘i’
+   19 |         for(i=1;i<=limit;i++;)
+      |                 ^
+../src/fumigation entry array sum of all elmnts.c:19:26: error: expected declaration specifiers before ‘i’
+   19 |         for(i=1;i<=limit;i++;)
+      |                          ^
+../src/fumigation entry array sum of all elmnts.c:19:30: error: expected declaration specifiers before ‘)’ token
+   19 |         for(i=1;i<=limit;i++;)
+      |                              ^
+../src/fumigation entry array sum of all elmnts.c:23:9: error: expected declaration specifiers before ‘for’
+   23 |         for
+      |         ^~~
+../src/fumigation entry array sum of all elmnts.c:25:1: error: expected declaration specifiers before ‘}’ token
+   25 | }
+      | ^
+../src/fumigation entry array sum of all elmnts.c:14:5: error: old-style parameter declarations in prototyped function definition
+   14 | int main(void)
+      |     ^~~~
+../src/fumigation entry array sum of all elmnts.c:26: error: expected ‘{’ at end of input
+make: *** [src/subdir.mk:20: src/fumigation entry array sum of all elmnts.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+14:04:40 Build Failed. 12 errors, 0 warnings. (took 164ms)
+

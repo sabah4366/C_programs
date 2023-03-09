@@ -1,0 +1,17 @@
+10:53:48 **** Incremental Build of configuration Debug for project fumigation entry array reverse and sorting ****
+make all 
+Building file: ../src/fumigation entry array reverse and sorting.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fumigation entry array reverse and sorting.d" -MT"src/fumigation entry array reverse and sorting.o" -o "src/fumigation entry array reverse and sorting.o" "../src/fumigation entry array reverse and sorting.c"
+../src/fumigation entry array reverse and sorting.c: In function ‘main’:
+../src/fumigation entry array reverse and sorting.c:29:1: error: expected declaration or statement at end of input
+   29 | }
+      | ^
+../src/fumigation entry array reverse and sorting.c:16:21: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+   16 |                 int c[100];
+      |                     ^
+make: *** [src/subdir.mk:20: src/fumigation entry array reverse and sorting.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+10:53:48 Build Failed. 2 errors, 1 warnings. (took 162ms)
+

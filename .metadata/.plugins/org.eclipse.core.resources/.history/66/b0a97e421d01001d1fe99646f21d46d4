@@ -1,0 +1,53 @@
+/*
+ ============================================================================
+ Name        : fumigation.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int i,j,k,limit,a[100],b[100],c[100];
+	printf("enter the limit ");
+	scanf("%d",&limit);
+	printf("enter the values of an first array");
+	for(i=0;i<limit;i++)
+
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("enter the values of an second array");
+
+	for(i=0;i<limit;i++)
+	{
+		scanf("%d",&b[j]);
+	}
+	printf("after merging");
+	for(i=0;i<2*limit;i++)
+	{
+		if(i<limit)
+		{
+			c[k]=a[i];
+		}else
+		{
+			c[k]=b[j-limit];
+		}
+		for(i=0;i<2*limit;i++)
+		{
+			printf("%d",c[k]);
+		}
+
+	}
+	{
+
+	}
+
+
+
+	return EXIT_SUCCESS;
+}

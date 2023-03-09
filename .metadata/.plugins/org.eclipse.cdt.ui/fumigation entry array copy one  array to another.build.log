@@ -1,0 +1,15 @@
+15:04:57 **** Incremental Build of configuration Debug for project fumigation entry array copy one  array to another ****
+make all 
+Building file: ../src/fumigation entry array copy one  array to another.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fumigation entry array copy one  array to another.d" -MT"src/fumigation entry array copy one  array to another.o" -o "src/fumigation entry array copy one  array to another.o" "../src/fumigation entry array copy one  array to another.c"
+Finished building: ../src/fumigation entry array copy one  array to another.c
+ 
+Building target: fumigation entry array copy one  array to another
+Invoking: GCC C Linker
+gcc  -o "fumigation entry array copy one  array to another" ./src/fumigation\ entry\ array\ copy\ one\ \ array\ to\ another.o   
+Finished building target: fumigation entry array copy one  array to another
+ 
+
+15:04:57 Build Finished. 0 errors, 0 warnings. (took 163ms)
+

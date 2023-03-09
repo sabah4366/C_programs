@@ -1,0 +1,11 @@
+10:07:25 **** Incremental Build of configuration Debug for project fumigation entry array n<10 sum ****
+make all 
+Building target: fumigation entry array n<10 sum
+Invoking: GCC C Linker
+gcc  -o "fumigation entry array n<10 sum" ./src/fumigation\ entry\ array\ n<10\ sum.o   
+/bin/sh: 1: cannot open 10 sum.o: No such file
+make: *** [makefile:43: fumigation entry array n<10 sum] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+
+10:07:25 Build Failed. 1 errors, 0 warnings. (took 162ms)
+
